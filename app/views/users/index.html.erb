@@ -1,4 +1,12 @@
 <h1>Listing users</h1>
+<ul>
+  <li><b>FQDN</b>: <%= @node[:fqdn] %> </li>
+  <li><b>Public FQDN</b>: <%= @node[:ec2][:public_hostname] %> </li>
+  <li><b>IP Address</b>: <%= @node[:ipaddress] %> </li>
+  <li><b>External IP</b>: <%= @node[:ec2][:public_ipv2] %> </li>
+  <li><b>Platform</b>: <%= @node[:platform] %> </li>
+  <li><b>Platform Version</b>: <%= @node[:platform_version] %> </li>
+</ul>
 
 <table>
   <tr>

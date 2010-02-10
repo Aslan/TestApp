@@ -1543,3 +1543,10 @@ Processing UsersController#index (for 127.0.0.1 at 2010-02-09 18:31:49) [GET]
 Rendering template within layouts/users
 Rendering users/index
 Completed in 11ms (View: 6, DB: 0) | 200 OK [http://localhost/users]
+
+
+Processing UsersController#index (for 127.0.0.1 at 2010-02-10 11:45:46) [GET]
+  [4;36;1mUser Load (0.4ms)[0m   [0;1mSELECT * FROM "users" [0m
+Rendering template within layouts/users
+Rendering users/index
+Completed in 41ms (View: 36, DB: 0) | 200 OK [http://localhost/users]
